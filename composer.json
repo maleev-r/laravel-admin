@@ -1,0 +1,26 @@
+{
+    "name": "lucky-romka/laravel-admin",
+    "description": "Admin panel for laravel package lucky-romka owner",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LuckyRomka\\LaravelAdmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman Maleev"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuckyRomka\\LaravelAdmin\\LaravelAdminServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
