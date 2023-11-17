@@ -1,7 +1,6 @@
 {
     "name": "lucky-romka/laravel-admin",
     "description": "Admin panel for laravel package lucky-romka owner",
-    "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
