@@ -13,6 +13,7 @@ class Sfold extends Component
 
     public function render()
     {
-        return view('lradmin::sfold');
+        $data = 'power';
+        return view('lradmin::sfold', ['data' => $data]);
     }
 }

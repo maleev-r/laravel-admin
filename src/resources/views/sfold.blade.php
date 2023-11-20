@@ -1,1 +1,1 @@
-fuckkkkkkkkkkkkkkkkkkkkkk
+{{$data}}
