@@ -24,7 +24,7 @@
                 <span class="icon"><i class="mdi mdi-forwardburger mdi-24px"></i></span>
             </a>
             <div class="navbar-item">
-                <div class="control"><input placeholder="Search everywhere..." class="input"></div>
+                <div class="control"><input placeholder="Search everywhere..." class="input" disabled></div>
             </div>
         </div>
         <div class="navbar-brand is-right">
@@ -56,7 +56,7 @@
                             <span>Messages</span>
                         </a>
                         <hr class="navbar-divider">
-                        <a class="navbar-item">
+                        <a class="navbar-item" href="#">
                             <span class="icon"><i class="mdi mdi-logout"></i></span>
                             <span>Log Out</span>
                         </a>

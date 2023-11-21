@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use LuckyRomka\LaravelAdmin\Controllers\LaravelAdminController;
 
-Route::get('/admin', function () {
-    return view('lradmin::index');
-});
+Route::get('/admin', [LaravelAdminController::class,'index']);
